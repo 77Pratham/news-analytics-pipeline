@@ -1,0 +1,15 @@
+psycopg2-binary==2.9.9
+requests==2.32.3
+feedparser==6.0.11
+pandas==2.2.2
+great-expectations==0.18.19
+sentence-transformers==3.0.1
+vaderSentiment==3.3.2
+spacy==3.7.5
+hdbscan==0.8.38.post2
+scikit-learn==1.5.1
+numpy==1.26.4
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+streamlit==1.37.0
+pgvector==0.3.2
