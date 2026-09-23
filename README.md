@@ -1,4 +1,4 @@
-# 📰 News Analytics Pipeline v2
+# 📰 News Analytics Pipeline
 
 An end-to-end news analytics pipeline: ingestion, data-quality validation,
 NLP enrichment (sentiment, NER, embeddings), semantic deduplication, topic
