@@ -44,13 +44,15 @@ cluster_topics -> generate_digest`.
 
 *(Demo video/GIF coming soon)*
 
-**Screenshots:**
+### Screenshots
 
-| Airflow DAG graph | Streamlit dashboard |
-|---|---|
-| <img width="1920" height="1011" alt="Screenshot (1493)" src="https://github.com/user-attachments/assets/64c56f64-8687-4040-9e2a-e6424e12a9e6" />
-| <img width="1920" height="1012" alt="Screenshot (1488)" src="https://github.com/user-attachments/assets/9d5effd4-25ec-4d7a-b89f-e5cf417aaa34" />
-|
+#### Airflow DAG graph
+
+<img width="1920" height="1011" alt="Airflow DAG graph" src="https://github.com/user-attachments/assets/64c56f64-8687-4040-9e2a-e6424e12a9e6" />
+
+#### Streamlit dashboard
+
+<img width="1920" height="1012" alt="Streamlit dashboard" src="https://github.com/user-attachments/assets/9d5effd4-25ec-4d7a-b89f-e5cf417aaa34" />
 
 ## Tech stack
 
