@@ -1,14 +1,23 @@
-# News Analytics Pipeline v2
+# 📰 News Analytics Pipeline v2
 
 An end-to-end news analytics pipeline: ingestion, data-quality validation,
 NLP enrichment (sentiment, NER, embeddings), semantic deduplication, topic
 clustering, and LLM-generated daily digests -- served through a FastAPI
-backend and a Streamlit dashboard.
+backend and a Streamlit dashboard. Runs entirely locally: zero API cost for
+the LLM digest step, no cloud dependency required.
 
 Built as a redesign of an earlier NewsAPI -> Airflow -> Postgres -> Streamlit
 project, extended with embeddings, sentiment/entity extraction, topic
 clustering, and a local LLM digest layer, plus a real API boundary between
 storage and presentation.
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Airflow](https://img.shields.io/badge/Airflow-2.9-red)
+![Postgres](https://img.shields.io/badge/Postgres-16%20%2B%20pgvector-336791)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B)
+![Ollama](https://img.shields.io/badge/Ollama-phi3--mini-black)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ## Architecture
 
@@ -26,6 +35,20 @@ flowchart TD
 
 Five Airflow tasks run hourly: `ingest -> quality_gate -> enrich ->
 cluster_topics -> generate_digest`.
+
+## 🎥 Demo
+
+<!-- Replace this with an actual screen recording or GIF once you have one --
+     e.g. record the Airflow graph view running end to end, then the
+     Streamlit dashboard's Topic trends and Daily digest tabs. -->
+
+*(Demo video/GIF coming soon)*
+
+**Screenshots:**
+
+| Airflow DAG graph | Streamlit dashboard |
+|---|---|
+| *(add screenshot)* | *(add screenshot)* |
 
 ## Tech stack
 
