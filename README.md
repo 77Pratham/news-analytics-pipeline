@@ -38,11 +38,7 @@ cluster_topics -> generate_digest`.
 
 ## 🎥 Demo
 
-<!-- Replace this with an actual screen recording or GIF once you have one --
-     e.g. record the Airflow graph view running end to end, then the
-     Streamlit dashboard's Topic trends and Daily digest tabs. -->
-
-*(Demo video/GIF coming soon)*
+[![Watch the demo](https://img.youtube.com/vi/SC33LO5a8pw/0.jpg)](https://youtu.be/SC33LO5a8pw)
 
 ### Screenshots
 
